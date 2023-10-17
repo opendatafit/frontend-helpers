@@ -1153,7 +1153,7 @@
     broccoli-funnel "^3.0.8"
     semver "^7.3.8"
 
-"@embroider/macros@^1.0.0", "@embroider/macros@^1.10.0", "@embroider/macros@^1.13.0", "@embroider/macros@^1.13.1":
+"@embroider/macros@^0.50.0 || ^1.0.0", "@embroider/macros@^1.0.0", "@embroider/macros@^1.10.0", "@embroider/macros@^1.13.0", "@embroider/macros@^1.13.1":
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.13.2.tgz#07dda11313a2539f403404881b729e622a80ca17"
   integrity sha512-AUgJ71xG8kjuTx8XB1AQNBiebJuXRfhcHr318dCwnQz9VRXdYSnEEqf38XRvGYIoCvIyn/3c72LrSwzaJqknOA==
@@ -4415,6 +4415,14 @@ ember-destroyable-polyfill@^2.0.3:
     ember-cli-babel "^7.22.1"
     ember-cli-version-checker "^5.1.1"
     ember-compatibility-helpers "^1.2.1"
+
+ember-get-config@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ember-get-config/-/ember-get-config-2.1.1.tgz#bede76c25d95dbefab8d30064abf7aa00bc19235"
+  integrity sha512-uNmv1cPG/4qsac8oIf5txJ2FZ8p88LEpG4P3dNcjsJS98Y8hd0GPMFwVqpnzI78Lz7VYRGQWY4jnE4qm5R3j4g==
+  dependencies:
+    "@embroider/macros" "^0.50.0 || ^1.0.0"
+    ember-cli-babel "^7.26.6"
 
 ember-load-initializers@^2.1.2:
   version "2.1.2"
