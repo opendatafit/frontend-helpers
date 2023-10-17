@@ -34,7 +34,10 @@
     "ember-cli-babel": "^7.26.11",
     "ember-cli-htmlbars": "^6.2.0",
     "ember-cli-typescript": "^5.2.1",
-    "ember-get-config": "^2.1.1"
+    "ember-get-config": "^2.1.1",
+    "ember-auto-import": "^2.6.3",
+    "@opendatafit/ember-models": "git+ssh://git@github.com:opendatafit/ember-models.git",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -71,7 +74,6 @@
     "@typescript-eslint/parser": "^5.57.1",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.0.1",
-    "ember-auto-import": "^2.6.3",
     "ember-cli": "~4.12.1",
     "ember-cli-dependency-checker": "^3.3.1",
     "ember-cli-inject-live-reload": "^2.1.0",
